@@ -1,15 +1,13 @@
 # ios-shared
 
-Shared Swift Package libraries used across Faraaz Sareshwala's iOS apps (`Forecash`, `Clean Dial`,
-and `Montage`).
+Shared Swift Package libraries used across various iOS apps.
 
 ## Libraries
 
 ### `OtherApps`
 
-Provides a single source of truth (`DeveloperAppsCatalog`, `DeveloperAppInfo`) and SwiftUI section
-rows (`OtherAppsView`) with bundled app icons (`Assets.xcassets`) to cross-promote other apps from
-the developer without duplicating metadata or icon assets across repositories.
+Provides a single source of truth and SwiftUI section rows with bundled app icons to cross promote
+other apps from the developer without duplicating metadata or icon assets across repositories.
 
 - **Minimum iOS version:** iOS 15.0+
 - **Zero network requests:** All metadata and icons are bundled offline inside the Swift Package.
